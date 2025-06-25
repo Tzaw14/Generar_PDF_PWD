@@ -1,0 +1,102 @@
+:root {
+    --neon: #00ffcc;
+    --oscuro-base: #211e34;
+    --oscuro-intermedio: #393658;
+    --azul-morado: #505680;
+    --azul-claro: #768ab2;
+    --rosa-claro: #dd8aa2;
+    --texto: #e6f1ff;
+    --error: #ff6666;
+    --rojo: #ff3333;
+    --deshabilitado: #3a3a4f;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--oscuro-base);
+    color: var(--texto);
+    padding: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--neon);
+    text-shadow: 0 0 10px var(--neon);
+    margin-bottom: 40px;
+  }
+  
+  form {
+    background-color: var(--oscuro-intermedio);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px var(--azul-claro);
+    max-width: 600px;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 12px 15px;
+    background-color: var(--azul-morado);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: var(--texto);
+    font-size: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: var(--neon);
+    outline: none;
+    background-color: var(--azul-claro);
+  }
+  
+  button {
+    padding: 14px;
+    width: 100%;
+    background-color: var(--neon);
+    color: var(--oscuro-base);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: var(--rosa-claro);
+    color: var(--oscuro-base);
+  }
+  
+  #reportContainer {
+    max-width: 800px;
+    margin: auto;
+    border: 2px dashed var(--neon);
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  textarea {
+    padding: 12px 15px;
+    background-color: var(--azul-morado);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    color: var(--texto);
+    font-size: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  textarea:focus {
+    border-color: var(--neon);
+    outline: none;
+    background-color: var(--azul-claro);
+  }
+  
